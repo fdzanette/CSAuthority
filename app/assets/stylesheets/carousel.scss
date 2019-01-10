@@ -1,11 +1,13 @@
+
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-top: 3rem;
+  padding-top: 50px;
   padding-bottom: 3rem;
   color: #5a5a5a;
+  line-height: 1.2;
 }
 
 
@@ -18,7 +20,7 @@ body {
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  bottom: 3rem;
+  bottom: 8rem;
   z-index: 10;
 }
 
