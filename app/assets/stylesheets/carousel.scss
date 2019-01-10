@@ -16,7 +16,7 @@ body {
 
 /* Carousel base class */
 .carousel {
-  margin-bottom: 4rem;
+  margin-bottom: 20px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -90,4 +90,9 @@ body {
   .featurette-heading {
     margin-top: 7rem;
   }
+}
+
+.rounded-circle {
+  width: 80px;
+  height: 80px;
 }
