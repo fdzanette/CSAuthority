@@ -5,6 +5,12 @@
 }
 
 nav {
-  background-color: lightslategray;
-  opacity: 0.9;
+  background-color: #328acc;
+}
+
+.nav-link i {
+  color: white;
+  &:hover {
+    font-weight: bold;
+  }
 }
