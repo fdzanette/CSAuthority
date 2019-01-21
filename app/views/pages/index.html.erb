@@ -95,7 +95,19 @@
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
 
+            <h2 class="cover-heading">Rails News</h2>
 
+            <div class="row">
+              <% @tweets.each do |tweet| %>
+                <div class="col-md-6">
+                  <div class="tech-news">
+                    <div class="card">
+                      <%= twitter_parser tweet %>
+                    </div>
+                  </div>
+                </div>
+              <% end %>
+            </div>
         <!-- /END THE FEATURETTES -->
 
       </div><!-- /.container -->
