@@ -95,19 +95,21 @@
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
 
-            <h2 class="cover-heading">Rails News</h2>
+        <hr class="featurette-divider">
 
-            <div class="row">
-              <% @tweets.each do |tweet| %>
-                <div class="col-md-6">
-                  <div class="tech-news">
-                    <div class="card">
-                      <%= twitter_parser tweet %>
-                    </div>
-                  </div>
+        <h2 class="col-xs-12 offset-md-3 col-md-6  text-center">Tweets sobre College Sports!</h2>
+
+        <div class="row">
+          <% @tweets.each do |tweet| %>
+            <div class="col-md-6">
+              <div class="college-news">
+                <div class="card">
+                  <%= twitter_parser tweet %>
                 </div>
-              <% end %>
+              </div>
             </div>
+          <% end %>
+        </div>
         <!-- /END THE FEATURETTES -->
 
       </div><!-- /.container -->
