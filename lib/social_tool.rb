@@ -8,8 +8,8 @@ module SocialTool
       config.access_token_secret = ENV.fetch("TWITTER_ACCESS_SECRET")
     end
 
-    client.search("#collegesports", result_type: "recent").take(5).collect do |tweet|
-    "#{tweet.user.screen_name}: #{tweet.text}"
+    client.search("#collegetennis", result_type: "recent").take(4).collect do |tweet|
+    "#{tweet.text} @#{tweet.user.screen_name}: #{tweet.user.description}"
     end
   end
 end
