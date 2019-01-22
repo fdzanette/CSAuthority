@@ -1,110 +1,121 @@
 
-    <main role="main">
+<main role="main">
 
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1" class=""></li>
-          <li data-target="#myCarousel" data-slide-to="2" class=""></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <%= image_tag("Tennis 1.jpg", class: "first-slide img-fluid")  %>
-            <div class="container">
-              <div class="carousel-caption">
-                <%= render 'banner_text' %>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <%= image_tag("Natacao 1.jpg", class: "second-slide img-fluid")  %>
-            <div class="container">
-              <div class="carousel-caption">
-                <%= render 'banner_text' %>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <%= image_tag("Volleyball 1.jpg", class: "third-slide img-fluid")  %>
-            <div class="container">
-              <div class="carousel-caption">
-                <%= render 'banner_text' %>
-              </div>
-            </div>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+      <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <%= image_tag("Tennis 1.jpg", class: "first-slide img-fluid")  %>
+        <div class="container">
+          <div class="carousel-caption">
+            <%= render 'banner_text' %>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
       </div>
-
-
-      <!-- Marketing messaging and featurettes
-      ================================================== -->
-      <!-- Wrap the rest of the page in another container to center all the content. -->
-
-      <div class="container marketing">
-
-        <!-- Three columns of text below the carousel -->
-        <div class="row">
-          <div class="col-xs-12 offset-md-4 col-md-4  text-center">
-            <%= image_tag("tennis_court.jpg", class: "rounded-circle")  %>
-            <h2>Quem Somos</h2>
-            <h5 class="text-justify"> A College Sports Authority é uma consultoria educacional que assessora estudantes para os processos seletivos de universidades dos Estados Unidos, e os acompanha durante suas trajetórias universitárias, oferecendo suporte e criando oportunidades de desenvolvimento pessoal e profissional.</h5>
-          </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
-
-
-        <!-- START THE FEATURETTES -->
-
-        <hr class="featurette-divider">
-        <div class="section-divider">
-          <h2 class="text-center">Caminho para a faculdade</h2>
-        </div>
-        <div class="row featurette">
-          <div class="col-md-7 text-justify">
-            <h5>Orientação para que o estudante desenvolva suas habilidades e apresentação, a fim de se tornar o melhor candidato para avaliação das universidades escolhidas, maximizando suas chances de ser aceito. Suporte durante o processo de admissão, como: identificação de pré-requisitos e prazos, planejamento de envio de documentos, conferência e envio dos pacotes de candidatura. Acompanhamento durante os quatro anos de faculdade com orientações para situações do dia a dia e suporte à adaptação intercultural. </h5>
-          </div>
-          <div class="col-md-5">
-            <%= image_tag("graduation.jpg", class: "featurette-image img-fluid mx-auto")  %>
+      <div class="carousel-item">
+        <%= image_tag("Natacao 1.jpg", class: "second-slide img-fluid")  %>
+        <div class="container">
+          <div class="carousel-caption">
+            <%= render 'banner_text' %>
           </div>
         </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-          <div class="col-md-5">
-            <%= image_tag("Tennis Player 1.jpg", class: "featurette-image img-fluid mx-auto")  %>
-          </div>
-          <div class="col-md-7 text-justify">
-            <h5>Seleção das opções de universidades mais adequadas ao perfil do atleta, buscando oportunidades de bolsas de estudos. Orientação para que o atleta se prepare adequadamente para ser apresentado para os treinadores das universidades selecionadas e assim tenha maiores chances de conseguir bolsas de estudos esportivas e aceitação nas universidades e ligas esportivas. </h5>
+      </div>
+      <div class="carousel-item">
+        <%= image_tag("Volleyball 1.jpg", class: "third-slide img-fluid")  %>
+        <div class="container">
+          <div class="carousel-caption">
+            <%= render 'banner_text' %>
           </div>
         </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row section-divider">
-          <div class="col-xs-12 offset-md-3 col-md-6  text-center">
-            <h2>Aonde Estudar?</h2>
-            <%= image_tag("college_map.jpg", class: "map-img")  %>
-          </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
-
-
-        <!-- /END THE FEATURETTES -->
-
-      </div><!-- /.container -->
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 
 
-      <!-- FOOTER -->
-      <footer class="container">
-        <p class="float-right"><a href="#">Back to top</a></p>
-        <p>© 2017-2018 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
-      </footer>
-    </main>
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-xs-12 offset-md-4 col-md-4  text-center">
+        <%= image_tag("tennis_court.jpg", class: "rounded-circle")  %>
+        <h2>Quem Somos</h2>
+        <h5 class="text-justify"> A College Sports Authority é uma consultoria educacional que assessora estudantes para os processos seletivos de universidades dos Estados Unidos, e os acompanha durante suas trajetórias universitárias, oferecendo suporte e criando oportunidades de desenvolvimento pessoal e profissional.</h5>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+    <div class="section-divider">
+      <h2 class="text-center">Caminho para a faculdade</h2>
+    </div>
+    <div class="row featurette">
+      <div class="col-md-7 text-justify">
+        <h5>Orientação para que o estudante desenvolva suas habilidades e apresentação, a fim de se tornar o melhor candidato para avaliação das universidades escolhidas, maximizando suas chances de ser aceito. Suporte durante o processo de admissão, como: identificação de pré-requisitos e prazos, planejamento de envio de documentos, conferência e envio dos pacotes de candidatura. Acompanhamento durante os quatro anos de faculdade com orientações para situações do dia a dia e suporte à adaptação intercultural. </h5>
+      </div>
+      <div class="col-md-5">
+        <%= image_tag("graduation.jpg", class: "featurette-image img-fluid mx-auto")  %>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-5">
+        <%= image_tag("Tennis Player 1.jpg", class: "featurette-image img-fluid mx-auto")  %>
+      </div>
+      <div class="col-md-7 text-justify">
+        <h5>Seleção das opções de universidades mais adequadas ao perfil do atleta, buscando oportunidades de bolsas de estudos. Orientação para que o atleta se prepare adequadamente para ser apresentado para os treinadores das universidades selecionadas e assim tenha maiores chances de conseguir bolsas de estudos esportivas e aceitação nas universidades e ligas esportivas. </h5>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row section-divider">
+      <div class="col-xs-12 offset-md-3 col-md-6  text-center">
+        <h2>Aonde Estudar?</h2>
+        <%= image_tag("college_map.jpg", class: "map-img")  %>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+    <hr class="featurette-divider">
+
+    <h4 class="col-xs-12 offset-md-3 col-md-6  text-center section-divider">Últimos Tweets sobre College Sports!</h4>
+
+    <div class="row">
+      <% @tweets.each do |tweet| %>
+        <div class="col-xs-12 col-md-6">
+          <div class="college-news">
+            <div class="card">
+              <%= twitter_parser tweet %>
+            </div>
+          </div>
+        </div>
+      <% end %>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+</main>
 
