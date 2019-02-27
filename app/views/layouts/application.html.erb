@@ -11,7 +11,13 @@
   </head>
   <body>
     <%= render 'navbar' %>
-    <%= yield %>
+    <div class="container">
+      <div class="row">
+        <%= yield %>
+      </div>
+    </div>
+
+
     <footer class="container">
       <p class="float-right"><a href="#">Back to top</a></p>
       <p class="float-left">© 2019 College Sports Authority</p>
