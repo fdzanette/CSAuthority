@@ -6,10 +6,10 @@ class MessagesController < ApplicationController
   def create
     @message = Message.new(message_params)
     if @message.save
-      redirect_to root_path
       flash[:notice] = "Recebemos sua mensagem. Logo entraremos em contato!"
+      redirect_to root_path
     else
-      flash[:notice] = "Ocorreu algum erro no envio. Favor tentar novamente."
+      flash[:alert] = "Ocorreu algum erro. Favor tentar novamente."
       render :new
     end
   end
