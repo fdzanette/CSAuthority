@@ -34,7 +34,7 @@ gem 'jquery-rails'
 gem 'font-awesome-rails', '~> 4.6', '>= 4.6.3.1'
 gem 'twitter', '~> 6.2'
 gem 'dotenv-rails', groups: [:development, :test]
-
+gem 'simple_form'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
