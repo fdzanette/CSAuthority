@@ -1,0 +1,29 @@
+// Place all the styles related to the ContactForms controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  
+  .message-header {
+    padding: 15px;
+    color: white;
+  }
+  
+  .message-header h4 {
+    font-weight: bold;
+  }
+  
+  
+  .form-margin {
+    margin-bottom: 35px;
+  }
+  
+  .form-img {
+    background-image: url("Tennis 2.jpg");
+    background-size: cover;
+    margin-bottom: 20px;
+  }
