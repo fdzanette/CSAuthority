@@ -90,7 +90,7 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
-  config.action_mailer.default_url_options = { host: 'https://your app.herokuapp.com' }
+  config.action_mailer.default_url_options = { host: 'https://morning-waters-51258.herokuapp.com/' }
   config.action_mailer.delivery_method = :smtp
 
   ActionMailer::Base.smtp_settings = {
@@ -102,5 +102,5 @@ Rails.application.configure do
   :authentication => :plain,
   :enable_starttls_auto => true
   }
-  
+
 end
