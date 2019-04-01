@@ -94,10 +94,10 @@ Rails.application.configure do
   config.action_mailer.delivery_method = :smtp
 
   ActionMailer::Base.smtp_settings = {
-  :user_name => ENV['Zoho_USERNAME'],
-  :password => ENV['Zoho_PASSWORD'],
-  :domain => 'csauthority.com.br',
-  :address => 'smtp.zoho.com',
+  :user_name => ENV['SENDGRID_USERNAME'],
+  :password => ENV['SENDGRID_PASSWORD'],
+  :domain => 'heroku.com',
+  :address => 'smtp.sendgrid.net',
   :port => 587,
   :authentication => :plain,
   :enable_starttls_auto => true
