@@ -4,7 +4,7 @@ class ContactFormsController < ApplicationController
   end
 
   def create
-    @contact = ContactForm.new(params[:contact_form])
+    @contact = ContactForm.new(contact_params)
     @contact.request = request
     if @contact.deliver
       flash[:notice] = "Recebemos sua mensagem. Logo entraremos em contato!"
@@ -14,4 +14,18 @@ class ContactFormsController < ApplicationController
       render :new
     end
   end
+
+  private
+
+  def contact_params
+    params.require(:contact_form).permit(:name,
+                                         :email,
+                                         :message, 
+                                         :nickname, 
+                                         :year, 
+                                         :level, 
+                                         :sport, 
+                                         :mobile)
+  end
+
 end
