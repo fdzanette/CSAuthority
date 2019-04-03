@@ -9,9 +9,18 @@
 }
 
 body {
-  background-color: rgba(120, 120, 120, 0.1);
-  background-image: url("BackWhite.jpg");
-  background-size: cover;
+  background-color: #f7f7f7!important;
+  //background-image: url("BackWhite.jpg");
+  //'background-size: cover;
+  font-family: 'Noto Serif TC', serif;
+}
+
+h1 {
+  font-size: 3.0rem;
+}
+
+.btn {
+  font-size: 1.3rem;
 }
 
 .college-news {
@@ -30,3 +39,4 @@ body {
 .hidden {
   display: none;
 }
+
