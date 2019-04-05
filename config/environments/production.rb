@@ -90,17 +90,9 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
-  config.action_mailer.default_url_options = { host: 'www.csauthority.com.br' }
-  config.action_mailer.delivery_method = :smtp
-
-  ActionMailer::Base.smtp_settings = {
-  :user_name => ENV['Zoho_USERNAME'],
-  :password => ENV['Zoho_PASSWORD'],
-  :domain => 'csauthority.com.br',
-  :address => 'smtp.zoho.com',
-  :port => 587,
-  :authentication => :plain,
-  :enable_starttls_auto => true
-  }
+  config.action_mailer.delivery_method     = :postmark
+  config.action_mailer.postmark_settings   = { api_key: ENV['POSTMARK_API_KEY'] }
+  config.action_mailer.default_url_options = { host: "csauthority.com.br" }
+  
 
 end

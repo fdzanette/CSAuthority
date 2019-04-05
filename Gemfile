@@ -36,6 +36,7 @@ gem 'twitter', '~> 6.2'
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'simple_form'
 gem 'mail_form'
+gem 'postmark-rails'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
