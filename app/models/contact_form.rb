@@ -15,7 +15,7 @@ class ContactForm < MailForm::Base
     {
       :subject => "Contato via CSA website",
       :to => "gustavo@csauthority.com.br",
-      :from => "gustavo@csauthority.com.br"
+      :from => %("#{name}" <#{email}>)
     }
   end
 end
