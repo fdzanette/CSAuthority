@@ -23,7 +23,9 @@
   }
   
   .form-img {
-    background-image: url("Tennis 2.jpg");
+    background-image: url("Volleyball 3.jpg");
     background-size: cover;
     margin-bottom: 20px;
+    object-fit: cover;
+    opacity: 0.95;
   }
