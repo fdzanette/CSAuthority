@@ -19,7 +19,7 @@ body {
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  bottom: 8rem;
+  bottom: 9rem;
   z-index: 10;
 }
 
@@ -58,11 +58,17 @@ body {
 }
 
 
+.container.marketing {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Featurettes
 ------------------------- */
 
 .featurette-divider {
-  margin: 4rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 3rem 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */

@@ -15,6 +15,17 @@ body {
   font-family: 'Noto Serif TC', serif;
 }
 
+h1 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
 
 .btn {
   font-size: 1.3rem;
@@ -26,6 +37,7 @@ body {
 
 .card {
   padding: 12px;
+  background-color: seashell;
 }
 
 .footer-margin {
@@ -37,3 +49,6 @@ body {
   display: none;
 }
 
+main {
+  background-color: #fff;
+}
