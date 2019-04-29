@@ -21,11 +21,17 @@
   .form-margin {
     margin-bottom: 15px;
   }
+
+  .form-margin-top {
+    margin-top: 60px;
+  }
   
   .form-img {
     background-image: url("IMG-20190410-WA0022.jpg");
     background-size: cover;
-    margin-bottom: 20px;
+    margin-bottom: -40px;
     object-fit: cover;
     opacity: 0.95;
+    position: relative;
+    top: -66px
   }

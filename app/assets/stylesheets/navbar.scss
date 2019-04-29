@@ -5,7 +5,14 @@
 }
 
 .navbar {
-  background-color: rgba(55, 65, 85, 0.98);
+  background-color: transparent;
+  z-index: 1;
+}
+
+@media (max-width: 550px) {
+  .navbar, .container-fluid {
+    background: rgba(55, 65, 85, 0.98);
+  }
 }
 
 .nav-link i {
@@ -25,11 +32,21 @@ ul.navbar-nav.mr-auto {
 
 .tel-class {
   font-family: serif;
-  font-size: 22px;
+  font-size: 18px;
   font-style: italic;
   font-weight: bold;
 }
 
 .ml-auto {
   align-items: center;
+}
+
+.sobre-link a {
+  padding-right: 0.4rem;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  &.hover {
+    text-decoration: none;
+  } 
 }
