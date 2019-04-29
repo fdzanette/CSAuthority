@@ -6,6 +6,13 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav ml-auto">
+       <% if !current_page?(:controller => 'contact_forms', :action => 'new') %>
+        <span class="nav-item active sobre-link">
+          <a href="#sobre">
+            Quem somos
+          </a>
+        </span>
+       <% end %>
         <span class="nav-item active">
           <div class="nav-link tel-class"> <i class="fa fa-whatsapp"></i> (11)-976562289</div>
         </span>
