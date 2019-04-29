@@ -59,3 +59,18 @@ main {
 .body-text, .body-text > h4  {
   line-height: 1.4;
 }
+
+.li-items li {
+  list-style: none;
+  text-align: left;
+  font-size: 18px;
+}
+
+ul.li-items {
+  line-height: 2.0rem;
+  padding-left: 0px;
+}
+
+.fatores {
+  font-size: 18px;
+}
