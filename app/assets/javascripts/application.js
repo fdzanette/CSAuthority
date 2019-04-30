@@ -16,3 +16,12 @@
 //= require jquery3
 //= require popper
 //= require bootstrap-sprockets
+
+$(document).ready(function(){
+    showAlert(); 
+ });
+ 
+ function showAlert(){
+     $(".fade").addClass("out")
+     setTimeout(function(){ $(".fade").addClass("kill") }, 5000);
+}

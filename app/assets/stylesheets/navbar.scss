@@ -50,3 +50,17 @@ ul.navbar-nav.mr-auto {
     text-decoration: none;
   } 
 }
+
+.fade {
+  opacity: 1;
+
+}
+
+.fade.out {
+  transition-duration: 6s;
+  opacity: 0.5;
+}
+
+.fade.kill {
+  display: none;
+}
