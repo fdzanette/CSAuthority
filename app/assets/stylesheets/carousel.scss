@@ -104,7 +104,15 @@ body {
 }
 
 .rounded-circle {
+  width: 180px;
+  height: 140px;
+  object-fit: cover;
+  }
+
+@media (max-width: 380px) {
+.rounded-circle {
   width: 130px;
   height: 90px;
   object-fit: cover;
+  }
 }

@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Meslo';
+  src: url('MesloLGMDZ-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+
 .section-divider {
   margin-top: -35px;
   margin-bottom: 35px;
@@ -10,9 +17,8 @@
 
 body {
   background-color: #f7f7f7!important;
-  //background-image: url("BackWhite.jpg");
-  //'background-size: cover;
-  font-family: 'Noto Serif TC', serif;
+  font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;
+//  font-family: 'Meslo', serif;
 }
 
 h1 {
@@ -20,7 +26,8 @@ h1 {
 }
 
 h4 {
-  font-size: 16px;
+  font-size: 1.15rem;
+  font-weight: 300;
 }
 
 h2 {
@@ -57,7 +64,7 @@ main {
 }
 
 .body-text, .body-text > h4  {
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 .li-items li {
@@ -79,3 +86,6 @@ ul.li-items {
   z-index: 2;
 }
 
+.vantagens li{
+  text-align: justify;  
+}
