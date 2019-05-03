@@ -13,7 +13,13 @@ h1.banner-title {
 .banner-text-background > h3 {
   text-shadow: 1px 1px #000; 
   font-family: 'Slabo 27px', serif;
-  font-size: 1.45rem;
+  font-size: 1.55rem;
   font-weight: bold;
+}
+
+@media (max-width: 415px) {
+  .banner-text-background > h3 {
+    margin-bottom: 1.25rem;
+  }
 }
 
