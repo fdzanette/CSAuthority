@@ -67,6 +67,10 @@ main {
   line-height: 1.5;
 }
 
+.body-text {
+  margin-top: 10px;
+}
+
 .li-items li {
   list-style: none;
   text-align: left;
@@ -92,6 +96,17 @@ ul.li-items {
 
 .parceiros {
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 0px;
+  justify-content: space-around;
+}
+
+.parceiros-img {
+  margin: 20px;
+  padding: 15px;
+  max-height: 75px;
+  border-radius: 3px;
+}
+
+.parceiros-img-center {
+  display: flex;
+  justify-content: space-around;
 }
