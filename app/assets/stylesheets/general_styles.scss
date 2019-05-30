@@ -15,6 +15,12 @@
   width: 100%;
 }
 
+@media (max-width: 550px) {
+  .map-img {
+    height: 100%;
+  }
+}
+
 body {
   background-color: #f7f7f7!important;
   font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;
