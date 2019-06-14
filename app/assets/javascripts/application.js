@@ -18,8 +18,8 @@
 //= require bootstrap-sprockets
 $(document).ready(function(){
     
-    const historiaLink = document.getElementById("historia-link");
-    const nossaHistoria = document.getElementsByClassName("nossa-historia");
+    var historiaLink = document.getElementById("historia-link");
+    var nossaHistoria = document.getElementsByClassName("nossa-historia");
     
     historiaLink.addEventListener('click', (event) => {
         nossaHistoria[0].classList.toggle('nossa-historia-active');
