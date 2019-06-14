@@ -116,3 +116,20 @@ ul.li-items {
   display: flex;
   justify-content: space-around;
 }
+
+#historia-link {
+  color: royalblue;
+}
+
+#historia-link:hover {
+  cursor: pointer;
+}
+
+.nossa-historia {
+  display: none;
+}
+
+
+.nossa-historia-active {
+  display:block;
+}
