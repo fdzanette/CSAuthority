@@ -21,7 +21,7 @@ $(document).ready(function(){
     var historiaLink = document.getElementById("historia-link");
     var nossaHistoria = document.getElementsByClassName("nossa-historia");
     
-    historiaLink.addEventListener('click', (event) => {
+    historiaLink.addEventListener('click', function(){
         nossaHistoria[0].classList.toggle('nossa-historia-active');
     })
     showAlert(); 
