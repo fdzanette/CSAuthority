@@ -16,7 +16,17 @@
 //= require jquery3
 //= require popper
 //= require bootstrap-sprockets
-$(document).ready(function(){
+document.addEventListener("DOMContentLoaded", function(event) { 
+    buttonNossaHistoria();
+    showAlert(); 
+});
+
+function showAlert(){
+    $(".fade").addClass("out")
+    setTimeout(function(){ $(".fade").addClass("kill") }, 5000);
+}
+
+function buttonNossaHistoria(){
     
     var historiaLink = document.getElementById("historia-link");
     var nossaHistoria = document.getElementsByClassName("nossa-historia");
@@ -24,10 +34,5 @@ $(document).ready(function(){
     historiaLink.addEventListener('click', function(){
         nossaHistoria[0].classList.toggle('nossa-historia-active');
     })
-    showAlert(); 
- });
- 
- function showAlert(){
-     $(".fade").addClass("out")
-     setTimeout(function(){ $(".fade").addClass("kill") }, 5000);
+
 }
