@@ -1,0 +1,15 @@
+.desktop-img {
+    width: 100%;
+    //margin: 0 auto;
+    position: relative;
+    object-fit: cover;
+    //background-size: cover;
+}
+
+@media (max-width: 415px) {
+    .desktop-img {
+      background-image: url("site_CSA_mobile.jpg");   
+      width: 100%;
+      object-fit: cover;
+    }
+}
