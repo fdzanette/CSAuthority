@@ -1,15 +1,45 @@
 .desktop-img {
-    width: 100%;
-    //margin: 0 auto;
-    position: relative;
-    object-fit: cover;
-    //background-size: cover;
-}
+    width: 1020px;
+    margin: 0 auto;
 
-@media (max-width: 415px) {
+  }
+
+@media (max-width: 768px) {
     .desktop-img {
-      background-image: url("site_CSA_mobile.jpg");   
+//      background-image: url("site_CSA_mobile.jpg");   
       width: 100%;
       object-fit: cover;
     }
+  }
+  
+@media (max-width: 768px) {
+    .media-links {
+      display: inline;
+      list-style: none;
+      margin: 0;
+    }
+    
+  }
+
+.img-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.social-links {
+  max-width: 55px;
+  display: flex;
+  position: absolute;
+  top: 25px;
+  right: 250px;
+}
+
+.media-links {
+  display: inline;
+  list-style: none;
+  padding: 0px;
+}
+
+.fix-nav {
+  position: relative;
 }
