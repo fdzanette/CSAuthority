@@ -20,45 +20,73 @@ h1.banner-title {
 
 .geral {
   width: 100%;
-  margin: 0 auto;
-  border: #000;
-  border-width: 2px;
-  
+  display: flex;
 }
 
 .tenis {
   background-image: url(Tenis.png);
   background-repeat:no-repeat;
   background-size:contain;
-  background-position:center;
+  width: 100%;
+  height: 0;
+  padding-top: 127%;
+  margin-bottom: -55px;
 }
 
 .parceiros_map {
-  background-image: url(Parceiros_map.png);
+  background-image: url(Parceiros_Map.png);
   background-repeat:no-repeat;
+  background-size:contain;
+  width: 100%;
+  height: 0;
+  padding-top: 225%;
 }
 
 .volei {
  background-image: url(Volei.png);
  background-repeat:no-repeat;
+ background-size:contain;
+ width: 100%;
+ height: 0;
+ padding-top:  100.5%;
+ margin-bottom: -1px;
 }
 
 .nata_onde {
   background-image: url(Nata_Onde.png);
   background-repeat:no-repeat;
+  background-size:contain;
+  width: 100%;
+  height: 0;
+  padding-top: 128%;
+  margin-bottom: -10px;
 }
 
 .sele_orient {
   background-image: url(Sele_Orient.png);
   background-repeat:no-repeat;
+  background-size:contain;
+  width: 100%;
+  height: 0;
+  padding-top: 96%;
+  margin-bottom: -15px;
 }
 
 .map {
   background-image: url(Map.png);
   background-repeat:no-repeat;
+  background-size:contain;
+  width: 100%;
+  height: 0;
+  padding-top: 120%;
 }
 
 .golf {
   background-image: url(Golf.png);
   background-repeat:no-repeat;
+  background-size:contain;
+  width: 100%;
+  height: 0;
+  padding-top: 120%;
+  margin-bottom: -5px;
 }
