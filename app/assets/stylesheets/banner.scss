@@ -18,3 +18,47 @@ h1.banner-title {
   margin-bottom: 0.75rem;
 }
 
+.geral {
+  width: 100%;
+  margin: 0 auto;
+  border: #000;
+  border-width: 2px;
+  
+}
+
+.tenis {
+  background-image: url(Tenis.png);
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+}
+
+.parceiros_map {
+  background-image: url(Parceiros_map.png);
+  background-repeat:no-repeat;
+}
+
+.volei {
+ background-image: url(Volei.png);
+ background-repeat:no-repeat;
+}
+
+.nata_onde {
+  background-image: url(Nata_Onde.png);
+  background-repeat:no-repeat;
+}
+
+.sele_orient {
+  background-image: url(Sele_Orient.png);
+  background-repeat:no-repeat;
+}
+
+.map {
+  background-image: url(Map.png);
+  background-repeat:no-repeat;
+}
+
+.golf {
+  background-image: url(Golf.png);
+  background-repeat:no-repeat;
+}
