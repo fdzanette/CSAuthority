@@ -40,6 +40,20 @@
         left: 25rem;
         text-align: justify;
     }
+    
+    // .social-links {
+    //     max-width: 55px;
+    //     position: absolute;
+    //     top: 25px;
+    //     right: 250px;
+    // }
+
+    .fix-nav {
+        position: absolute;
+        top: 3%;
+        right: 15%;
+        font-size: 1.5rem;
+      }
 }
 
 
@@ -55,7 +69,21 @@
         right: 14%;
         bottom: 16%;
     }
+    
+    .social-links {
+        max-width: 55px;
+        position: absolute;
+        top: 10%;
+        right: 25%;
+    }
+    .fix-nav {
+        position: absolute;
+        top: 2%;
+        right: 2%;
+        font-size: 1.2rem;
+      }    
 }
+
 @media (max-width: 420px) {
     
     .btn-danger {
@@ -67,6 +95,19 @@
         right: 16%;
         bottom: 16%;
     }
+    
+    .social-links {
+        max-width: 55px;
+        position: absolute;
+        top: 5%;
+        right: 15%;
+    }
+    .fix-nav {
+        position: absolute;
+        top: 1%;
+        right: -1%;
+        font-size: 0.8rem;
+      }
 }
 
 @media (max-width: 380px) {
@@ -80,6 +121,19 @@
         right: 14%;
         bottom: 16%;
     }
+    
+    .social-links {
+        max-width: 55px;
+        position: absolute;
+        top: 1%;
+        right: 2.5%;
+    }
+    .fix-nav {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        font-size: 0.7rem;
+      }    
 }
 
 @media (max-width: 325px) {
@@ -93,6 +147,19 @@
         right: 12%;
         bottom: 14%;
     }
+    
+    .social-links {
+        max-width: 55px;
+        position: absolute;
+        top: 1%;
+        right: 1%;
+    }    
+    .fix-nav {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        font-size: 0.6rem;
+      }
 }
 
 @media (min-width: 475px) {
@@ -103,6 +170,18 @@
         bottom: 18%;
     }
 
+    .social-links {
+        max-width: 55px;
+        position: absolute;
+        top: 25px;
+        right: 250px;
+    }
+    .fix-nav {
+        position: absolute;
+        top: 1%;
+        right: 2%;
+        font-size: 1.3rem;
+      }
 }
 
 @media (min-width: 900px) {
@@ -114,5 +193,39 @@
         font-size: 1.2rem;
     }
 
-
+    .social-links {
+        max-width: 55px;
+        position: absolute;
+        top: 25px;
+        right: 250px;
+      }
+      .fix-nav {
+        position: absolute;
+        top: 1%;
+        right: 5%;
+        font-size: 1.4rem;
+      }
 }
+
+
+  
+  .media-links {
+    display: inline;
+    list-style: none;
+    padding: 0px;
+//    margin: 0px -15px;
+  }
+  
+
+
+  .ul-links {
+      display: flex;
+      align-items: center;
+      color: white;
+  }
+
+  .phone {
+      font-style: italic;
+      font-family: sans-serif;
+      font-weight: 300;
+  }
