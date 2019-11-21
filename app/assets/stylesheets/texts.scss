@@ -1,0 +1,231 @@
+.main-text {
+    position: relative;
+}
+
+.main-text h1 {
+    color: red;
+    font-size: 1.2em;
+    margin: 0.8rem auto;
+    /* align-self: center; */
+    width: 67%;
+}
+
+.main-text p {
+    color: #fff;
+}
+
+@media all and (min-width: 50px)   {  .main-text h1, p  { font-size:0.3em;  } }
+@media all and (min-width: 100px)  {  .main-text h1, p  { font-size:0.5em;  } }
+@media all and (min-width: 200px)  {  .main-text h1, p  { font-size:0.7em;  } }
+@media all and (min-width: 300px)  {  .main-text h1, p  { font-size:0.8em;  } }
+@media all and (min-width: 500px)  {  .main-text h1, p  { font-size:1.0em;  } }
+@media all and (min-width: 600px)  {  .main-text h1, p  { font-size:1.2em;  } }
+@media all and (min-width: 700px)  {  .main-text h1, p, .btn-danger  { font-size:1.5em;  } }
+@media all and (min-width: 800px)  {  .main-text h1, p  { font-size:1.6em;  } }
+@media all and (min-width: 900px)  {  .main-text h1, p  { font-size:1.8em;  } }
+@media all and (min-width: 1000px) {  .main-text h1, p  { font-size:2.0em;  } }
+
+.banner-text {
+    margin-right: 8px;
+    position: absolute;
+    top: 4.3rem;
+    left: 10rem;
+    text-align: justify;
+}
+
+@media (min-width: 500px) {
+    .banner-text {
+        position: absolute;
+        top: 14.3rem;
+        left: 25rem;
+        text-align: justify;
+    }
+    
+    // .social-links {
+    //     max-width: 55px;
+    //     position: absolute;
+    //     top: 25px;
+    //     right: 250px;
+    // }
+
+    .fix-nav {
+        position: absolute;
+        top: 3%;
+        right: 15%;
+        font-size: 1.5rem;
+      }
+}
+
+
+
+@media (max-width: 474px) {
+    
+    .btn-danger {
+        font-size: 0.9rem;
+    }
+    
+    .contato {
+        position: absolute;
+        right: 14%;
+        bottom: 16%;
+    }
+    
+    .social-links {
+        max-width: 55px;
+        position: absolute;
+        top: 10%;
+        right: 25%;
+    }
+    .fix-nav {
+        position: absolute;
+        top: 2%;
+        right: 2%;
+        font-size: 1.2rem;
+      }    
+}
+
+@media (max-width: 420px) {
+    
+    .btn-danger {
+        font-size: 0.9rem;
+    }
+    
+    .contato {
+        position: absolute;
+        right: 16%;
+        bottom: 16%;
+    }
+    
+    .social-links {
+        max-width: 55px;
+        position: absolute;
+        top: 5%;
+        right: 15%;
+    }
+    .fix-nav {
+        position: absolute;
+        top: 1%;
+        right: -1%;
+        font-size: 0.8rem;
+      }
+}
+
+@media (max-width: 380px) {
+    
+    .btn-danger {
+        font-size: 0.9rem;
+    }
+    
+    .contato {
+        position: absolute;
+        right: 14%;
+        bottom: 16%;
+    }
+    
+    .social-links {
+        max-width: 55px;
+        position: absolute;
+        top: 1%;
+        right: 2.5%;
+    }
+    .fix-nav {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        font-size: 0.7rem;
+      }    
+}
+
+@media (max-width: 325px) {
+    
+    .btn-danger {
+        font-size: 0.8rem;
+    }
+    
+    .contato {
+        position: absolute;
+        right: 12%;
+        bottom: 14%;
+    }
+    
+    .social-links {
+        max-width: 55px;
+        position: absolute;
+        top: 1%;
+        right: 1%;
+    }    
+    .fix-nav {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        font-size: 0.6rem;
+      }
+}
+
+@media (min-width: 475px) {
+
+    .contato {
+        position: absolute;
+        right: 14%;
+        bottom: 18%;
+    }
+
+    .social-links {
+        max-width: 55px;
+        position: absolute;
+        top: 25px;
+        right: 250px;
+    }
+    .fix-nav {
+        position: absolute;
+        top: 1%;
+        right: 2%;
+        font-size: 1.3rem;
+      }
+}
+
+@media (min-width: 900px) {
+
+    .contato {
+        position: absolute;
+        right: 15%;
+        bottom: 19.3%;
+        font-size: 1.2rem;
+    }
+
+    .social-links {
+        max-width: 55px;
+        position: absolute;
+        top: 25px;
+        right: 250px;
+      }
+      .fix-nav {
+        position: absolute;
+        top: 1%;
+        right: 5%;
+        font-size: 1.4rem;
+      }
+}
+
+
+  
+  .media-links {
+    display: inline;
+    list-style: none;
+    padding: 0px;
+//    margin: 0px -15px;
+  }
+  
+
+
+  .ul-links {
+      display: flex;
+      align-items: center;
+      color: white;
+  }
+
+  .phone {
+      font-style: italic;
+      font-family: sans-serif;
+      font-weight: 300;
+  }
