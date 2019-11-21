@@ -1,9 +1,118 @@
 .main-text {
-    position: absolute;
-    top: 15 em;
-    right: 25em;;
+    position: relative;
 }
 
 .main-text h1 {
     color: red;
+    font-size: 1.2em;
+    margin: 0.8rem auto;
+    /* align-self: center; */
+    width: 67%;
+}
+
+.main-text p {
+    color: #fff;
+}
+
+@media all and (min-width: 50px)   {  .main-text h1, p  { font-size:0.3em;  } }
+@media all and (min-width: 100px)  {  .main-text h1, p  { font-size:0.5em;  } }
+@media all and (min-width: 200px)  {  .main-text h1, p  { font-size:0.7em;  } }
+@media all and (min-width: 300px)  {  .main-text h1, p  { font-size:0.8em;  } }
+@media all and (min-width: 500px)  {  .main-text h1, p  { font-size:1.0em;  } }
+@media all and (min-width: 600px)  {  .main-text h1, p  { font-size:1.2em;  } }
+@media all and (min-width: 700px)  {  .main-text h1, p, .btn-danger  { font-size:1.5em;  } }
+@media all and (min-width: 800px)  {  .main-text h1, p  { font-size:1.6em;  } }
+@media all and (min-width: 900px)  {  .main-text h1, p  { font-size:1.8em;  } }
+@media all and (min-width: 1000px) {  .main-text h1, p  { font-size:2.0em;  } }
+
+.banner-text {
+    margin-right: 8px;
+    position: absolute;
+    top: 4.3rem;
+    left: 10rem;
+    text-align: justify;
+}
+
+@media (min-width: 500px) {
+    .banner-text {
+        position: absolute;
+        top: 14.3rem;
+        left: 25rem;
+        text-align: justify;
+    }
+}
+
+
+
+@media (max-width: 474px) {
+    
+    .btn-danger {
+        font-size: 0.9rem;
+    }
+    
+    .contato {
+        position: absolute;
+        right: 14%;
+        bottom: 16%;
+    }
+}
+@media (max-width: 420px) {
+    
+    .btn-danger {
+        font-size: 0.9rem;
+    }
+    
+    .contato {
+        position: absolute;
+        right: 16%;
+        bottom: 16%;
+    }
+}
+
+@media (max-width: 380px) {
+    
+    .btn-danger {
+        font-size: 0.9rem;
+    }
+    
+    .contato {
+        position: absolute;
+        right: 14%;
+        bottom: 16%;
+    }
+}
+
+@media (max-width: 325px) {
+    
+    .btn-danger {
+        font-size: 0.8rem;
+    }
+    
+    .contato {
+        position: absolute;
+        right: 12%;
+        bottom: 14%;
+    }
+}
+
+@media (min-width: 475px) {
+
+    .contato {
+        position: absolute;
+        right: 14%;
+        bottom: 18%;
+    }
+
+}
+
+@media (min-width: 900px) {
+
+    .contato {
+        position: absolute;
+        right: 15%;
+        bottom: 19.3%;
+        font-size: 1.2rem;
+    }
+
+
 }
