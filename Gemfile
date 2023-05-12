@@ -7,8 +7,9 @@ end
 
 ruby '~> 3.2.2'
 
-gem 'rails', '~> 6.1.3', '>= 6.1.3.2'
-gem 'sqlite3', '~> 1.4'
+gem 'rails', '~> 7.0.4.3', '>= 7.0.4.3'
+gem 'pg'
+#gem 'sqlite3', '~> 1.4'
 gem 'puma', '~> 5.0'
 gem 'sass-rails', '>= 6'
 gem 'webpacker', '~> 5.4'
@@ -28,6 +29,6 @@ group :test do
   gem 'database_cleaner-active_record', '~> 2.1.0'
 end
 
-group :production do
-  gem 'pg', '~> 1.2.3'
-end
+#group :production do
+ # gem 'pg', '~> 1.2.3'
+#end
